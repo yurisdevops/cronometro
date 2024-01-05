@@ -68,3 +68,59 @@ h1 {
 .pausado {
   color: red;
 }
+@media (max-width: 664px) {
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: var(--second-color);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .botoes button {
+    display: block;
+    width: 15%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+}
+
+@media(min-width: 390px) and (max-width: 663px){
+  .container {
+    max-width: 350px;
+    margin: 50px auto;
+    background-color: var(--second-color);
+    padding: 20px;
+    border-radius: 15px;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  .botoes button {
+    display: block;
+    width: 17%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    font-size: 12px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin: 0 4px;
+    border-radius: 4px;
+  }
+}
+
